@@ -34,10 +34,8 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
        // app.receivedEvent('deviceready');
-         var ref = window.open('http://apache.org', '_blank', 'location=yes');
-         ref.addEventListener('loadstart', function() { alert('start: ' + event.url); });
-         ref.addEventListener('loadstop', function() { alert('stop: ' + event.url); });
-         ref.addEventListener('exit', function() { alert(event.type); });
+         var ref = window.open('www.tantralove.biz/app-mobile-2/focus-tantra/', '_self', 'location=no');
+
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
